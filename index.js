@@ -1,13 +1,13 @@
 
 //Dice for Player 1
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
-var randomDice1 = "./images/dice" + randomNumber1 + ".png";
+var randomDice1 = "images/dice" + randomNumber1 + ".png";
 
 document.querySelectorAll("img")[0].setAttribute("src",randomDice1);
 
 //Dice for Player 2
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
-var randomDice2 = "./images/dice" + randomNumber2 + ".png";
+var randomDice2 = "images/dice" + randomNumber2 + ".png";
 
 document.querySelectorAll("img")[1].setAttribute("src",randomDice2);
 
